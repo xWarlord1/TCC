@@ -232,22 +232,24 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    padding-bottom: 5px;
 }
 .about .about-content .right a{
     display: inline-block;
-    border: 2px solid #111;
-    color: #111;
+    background: rgb(49,0,74);
+    background: linear-gradient(162deg, rgba(49,0,74,1) 0%, rgba(49,0,74,1) 5%, rgba(49,0,74,1) 15%, rgba(49,0,74,1) 48%, rgba(128,0,128,1) 100%); 
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid ;
-    transition: all 0.3s ease;
+    transition: all 0.5ms ease-in;
 }
 .about .about-content .right a:hover{
-    color: #fff;
-    background: #31004a;
+    background: transparent;
+    border: 1px solid rgba(128,0,128,1);
+    color: rgba(128,0,128,1);
 }
 /* project section styling */
 .project, .tools{
