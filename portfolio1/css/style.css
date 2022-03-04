@@ -67,7 +67,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: purple;
+    color: rgb(99, 99, 99);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -83,7 +83,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #16161a;
+    background: #120e40;
+    /* #16161a */
 }
 .navbar .max-width{
     display: flex;
@@ -185,7 +186,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: deeppink;;
+    color: deeppink;
     font-weight: 500;
 }
 .home .home-content a{
@@ -234,25 +235,25 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #fd1f87;
-    color: #fff;
+    border: 2px solid #111;
+    color: #111;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #fd1f87;
+    border: 2px solid ;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    border: 2px solid #fd1f87;
-    color: #fd1f87;
-    background: none;
+    color: #fff;
+    background: #31004a;
 }
 /* project section styling */
 .project, .tools{
     color:#fff;
-    background: #111;
+    background: rgb(18,11,53);
+    background: linear-gradient(162deg, rgba(18,11,53,1) 8%, rgba(18,11,53,1) 16%, rgba(21,15,62,1) 32%, rgba(26,25,83,1) 48%, rgba(26,25,83,1) 54%, rgba(22,18,67,1) 64%, rgba(18,11,53,1) 92%, rgba(18,11,53,1) 100%); 
 }
 .project .title::before,
 .tools .title::before{
@@ -260,20 +261,24 @@ section .title::after{
 }
 .project .title::after,
 .tools .title::after{
-    background: #111;
-    content: "wha i provide";
+    background:  #08022e;
+    content: "";
 }
 .project .project-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #080226e3;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    -webkit-box-shadow: 10px 8px 17px -3px rgba(0,0,0,0.2); 
+    box-shadow: 10px 8px 17px -3px rgba(0,0,0,0.2);
 }
 .project .project-content .card:hover{
-    background: purple;
+    background: #05011a;
+    -webkit-box-shadow: 10px 8px 17px -3px rgba(0,0,0,0.37); 
+    box-shadow: 10px 8px 17px -3px rgba(0,0,0,0.37);
 }
 .project .project-content .card .box{
     transition: all 0.3s ease;
@@ -283,11 +288,11 @@ section .title::after{
 }
 .project .project-content .card i{
     font-size: 50px;
-    color: purple;
+    color: #6610f2;
     transition: color 0.3s ease;
 }
 .project .project-content .card:hover i{
-    color: #fff;
+    color: #2c114f;
 }
 .project .project-content .card .text{
     font-size: 25px;
