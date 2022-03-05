@@ -158,7 +158,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("/portfolio1/images/bg-Galaxy.jpg")no-repeat left top;
+    /*background: url("/portfolio1/images/bg-Galaxy.jpg")no-repeat left top;*/
+    background: url("../images/bg-Galaxy.jpg")no-repeat left top;
     height: 100vh;
     color: #fff;
     min-height: 500px;
