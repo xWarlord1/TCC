@@ -158,8 +158,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /*background: url("/portfolio1/images/bg-Galaxy.jpg")no-repeat left top;*/
-    background: url("../images/bg-Galaxy.jpg")no-repeat left top;
+    background: url("/portfolio1/images/bg-Galaxy.jpg")no-repeat left top;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -209,7 +208,7 @@ section .title::after{
 }
 /* about section styling */
 .about .title::after{
-    content: "about us";
+    content: "who i am";
 }
 .about .about-content .left{
     width: 45%;
@@ -217,7 +216,7 @@ section .title::after{
 .about .about-content .left img{
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
 }
 .about .about-content .right{
